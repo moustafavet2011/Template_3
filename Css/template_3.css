@@ -1290,7 +1290,7 @@ max-width: 100%;
     padding-top: var(--main-padding-top);
     padding-bottom: var(--main-padding-bottom);
     position: relative;
-    background-image: url(./images/stats_background.jpg);
+    background-image: url(../Images/stats_background.jpg);
     background-size: cover;
 }
 .stats::before{
@@ -1371,7 +1371,7 @@ max-width: 100%;
     flex-wrap: wrap;
 }
 .discount .image{
-    background-image: url(./images/discount-background.jpg);
+    background-image: url(../Images/discount-background.jpg);
     background-size: cover;
     position: relative;
     color: white;
@@ -1723,9 +1723,9 @@ max-width: 100%;
 }
 @keyframes  change-background  {
     0%{
-        background-image: url(./images/discount-background.jpg);
+        background-image: url(../Images/discount-background.jpg);
     }
     100%{
-        background-image: url(./images/discount-background_2.jpg);
+        background-image: url(../Images/discount-background_2.jpg);
     }
 }
